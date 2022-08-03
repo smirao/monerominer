@@ -1,0 +1,11 @@
+sudo apt update;
+sudo apt upgrade;
+sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y;
+cd ~;
+git clone https://github.com/xmrig/xmrig.git;
+cd xmrig;
+mkdir build;
+cd build;
+cmake ..;
+make;
+cp ~/monerominer/runMineShaft.sh .;
