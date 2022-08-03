@@ -9,3 +9,4 @@ cd build;
 cmake ..;
 make;
 cp ~/monerominer/runMineShaft.sh .;
+chmod +x runMineShaft.sh;
